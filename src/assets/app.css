@@ -1,0 +1,45 @@
+body {
+    background: lightseagreen;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: wheat;
+    display: flex;
+    flex-direction: row;
+    width: 50rem;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.content .card {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin: 3rem auto 0rem auto;
+}
+
+.content .grafica {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 25rem;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.content  .grafica .barra {
+    width: 5px;
+    background: red;
+    margin: 5px;
+}
